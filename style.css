@@ -13,3 +13,10 @@ body {
   background: -webkit-linear-gradient(to right, #ffd194, #d1913c);
   background: linear-gradient(to right, #ffd194, #d1913c);
 }
+
+.calculator-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
