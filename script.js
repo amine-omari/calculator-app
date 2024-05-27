@@ -81,6 +81,8 @@ class Calculator {
     );
     if (this.operation != null) {
       this.previousOperandButonTextElement.innerText = `${this.previousOperand} ${this.operation}`;
+    } else {
+      this.previousOperandButonTextElement.innerText = "";
     }
   }
 }
