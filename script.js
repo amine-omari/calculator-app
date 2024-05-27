@@ -24,6 +24,7 @@ class Calculator {
 
   updateDispaly() {
     this.currentOperandButonTextElement.innerText = this.currentOperand;
+    this.previousOperandButonTextElement.innerText = this.previousOperand;
   }
 }
 
