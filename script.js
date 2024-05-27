@@ -23,3 +23,8 @@ const previousOperandButonTextElement = document.querySelector(
 const currentOperandButonTextElement = document.querySelector(
   "[data-current-operand]"
 );
+
+const calculator = new Calculator(
+  previousOperandButonTextElement,
+  currentOperandButonTextElement
+);
