@@ -28,3 +28,10 @@ const calculator = new Calculator(
   previousOperandButonTextElement,
   currentOperandButonTextElement
 );
+
+numberButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    calculator.appendNumber(button.innerText);
+    calculator.updateDispaly();
+  });
+});
