@@ -56,6 +56,10 @@ class Calculator {
     this.previousOperand = "";
   }
 
+  getDisplayNumber(number) {
+    return number;
+  }
+
   updateDispaly() {
     this.currentOperandButonTextElement.innerText = this.currentOperand;
     if (this.operation != null) {
