@@ -2,6 +2,7 @@ class Calculator {
   constructor(previousOperandButonTextElement, currentOperandButonTextElement) {
     this.previousOperandButonTextElement = previousOperandButonTextElement;
     this.currentOperandButonTextElement = currentOperandButonTextElement;
+    this.clear();
   }
 
   clear() {
