@@ -44,3 +44,10 @@ numberButtons.forEach((button) => {
     calculator.updateDispaly();
   });
 });
+
+operationButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    calculator.chooseOperation(button.innerText);
+    calculator.updateDispaly();
+  });
+});
