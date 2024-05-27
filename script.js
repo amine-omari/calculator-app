@@ -3,6 +3,12 @@ class Calculator {
     this.previousOperandButonTextElement = previousOperandButonTextElement;
     this.currentOperandButonTextElement = currentOperandButonTextElement;
   }
+
+  clear() {
+    this.currentOperand = "";
+    this.previousOperand = "";
+    this.operation = undefined;
+  }
 }
 
 const numberButtons = document.querySelectorAll("[data-number]");
