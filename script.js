@@ -11,6 +11,10 @@ class Calculator {
     this.operation = undefined;
   }
 
+  appendNumber(number) {
+    this.currentOperand = number;
+  }
+
   updateDispaly() {
     this.currentOperandButonTextElement.innerText = this.currentOperand;
   }
