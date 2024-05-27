@@ -10,6 +10,10 @@ class Calculator {
     this.previousOperand = "";
     this.operation = undefined;
   }
+
+  updateDispaly() {
+    this.currentOperandButonTextElement.innerText = this.currentOperand;
+  }
 }
 
 const numberButtons = document.querySelectorAll("[data-number]");
